@@ -40,6 +40,54 @@ Ensure you have Python 3.x installed along with the required dependencies.
 
 This will start a local server, and you can access the app in your browser.
 
+# 📁 Project Structure
+
+disease-prediction/
+
+│── 📂 app/                   # Streamlit Web App
+
+│   ├── app.py                # Main Streamlit App
+
+│── 📂 models/                 # Trained ML Models
+
+│   ├── diabetes_model.sav
+
+│   ├── heart_model.sav
+
+│   ├── lung_model.sav
+
+│   ├── parkinsons_model.sav
+
+│   ├── thyroid_model.sav
+
+│── 📂 data/                   # Datasets
+
+│   ├── diabetes.csv
+
+│   ├── heart_disease.csv
+
+│   ├── lung_cancer.csv
+
+│   ├── parkinsons.csv
+
+│   ├── thyroid.csv
+
+│── 📂 notebooks/              # Jupyter Notebooks (Training & Testing)
+
+│   ├── diabetes_disease.ipynb
+
+│   ├── heart_disease.ipynb
+
+│   ├── lung_cancer.ipynb
+
+│   ├── parkinsons_disease.ipynb
+
+│   ├── thyroid_disease.ipynb
+
+│── README.md                  # Project Documentation
+
+│── requirements.txt            # Python Dependencies
+
 # 📊 Model & Dataset Details
 
 Each disease prediction model was trained on relevant medical datasets:
