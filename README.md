@@ -84,6 +84,14 @@ disease-prediction/
 
 │   ├── thyroid_disease.ipynb
 
+│   ├── README.md              # Dataset & Model Details
+
+│── 📂 assets/                 # Screenshots & UI Previews
+
+│   ├── screenshot1.png        # Sample output screenshot
+
+│   ├── screenshot2.png        # Additional UI previews
+
 │── README.md                  # Project Documentation
 
 │── requirements.txt            # Python Dependencies
@@ -91,35 +99,33 @@ disease-prediction/
 # 📊 Model & Dataset Details
 
 Each disease prediction model was trained on relevant medical datasets:
-- Diabetes: diabetes.csv
-- Heart Disease: heart disease.csv
-- Lung Cancer: lung cancer.csv
-- Parkinson's Disease: parkinsons.csv
-- Thyroid Disease: thyroid.csv
+- Diabetes: data/diabetes.csv
+- Heart Disease: data/heart disease.csv
+- Lung Cancer: data/lung cancer.csv
+- Parkinson's Disease: data/parkinsons.csv
+- Thyroid Disease: data/thyroid.csv
 
 The trained models are stored as:
-- diabetes model.sav
-- heart model.sav
-- lung model.sav
-- parkinsons model.sav
-- thyroid model.sav
-
-# 🖥 Usage Guide
-
-1. Run the Streamlit app.
-
-2. Select a disease from the dropdown menu.
-
-3. Enter the required medical details.
-
-4. Click on the Test Result button.
-
-5. The app will display whether the person has the disease or not.
+- models/diabetes model.sav
+- models/heart model.sav
+- models/lung model.sav
+- models/parkinsons model.sav
+- models/thyroid model.sav
 
 
-# 📷 Screenshots
-![2](https://github.com/user-attachments/assets/1896fbdf-7cb1-4ca0-8116-6eb03ea9fd4a)
-![1](https://github.com/user-attachments/assets/42683451-45c5-4fe2-b8a1-3c7f50baed8e)
+# 📷 Output Screenshots
+
+The assets/ folder contains sample output screenshots showing how the app works.
+
+Example output:
+
+
+The image demonstrates how the user inputs medical parameters and receives an instant prediction. More screenshots can be added to showcase different disease predictions and app functionality.
+
+
+# 🚀 Deployment Instructions
+
+For details on deploying this project, refer to **[DEPLOYMENT.md](DEPLOYMENT.md)**
 
 
 # 📜 License
